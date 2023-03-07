@@ -13,7 +13,7 @@ docker build -t lyiharilam/naukma-devops-lab3:1.0 .
 
 Відображення створеного образу в Docker Desktop:
 
-![image](https://user-images.githubusercontent.com/77335357/223473949-5709188a-f031-426c-9b8c-7c2324445343.png)
+![image](https://user-images.githubusercontent.com/77335357/223484931-b6bce31e-94f4-4c8b-9f7c-a269af2ce657.png)
 
 #### 2. Додавання образу в репозиторій на Docker Hub:
 ```
@@ -22,11 +22,11 @@ docker push lyiharilam/naukma-devops-lab3:1.0
 
 Після виконання цієї команди на моєму Docker Hub акаунті був створений відповідний репозиторій
 
-![image](https://user-images.githubusercontent.com/77335357/223473424-1a3114d3-7271-49d7-b3ab-738ebfa146f9.png)
+![image](https://user-images.githubusercontent.com/77335357/223485064-4a0f5745-64cd-4199-8db1-ede61915d47c.png)
 
 #### 3. Запуск контейнеру:
 ```
- docker run --cpus=1 -m 1g --name devops_lab3_app -p 8080:8080 32efbe3739be
+ docker run --cpus=1 -m 1g --name devops_lab3_app -p 8080:8080 3d3715430b91
  ```
 Параметр ```-cpus``` необхідний для того, щоб вказати, яку частину з доступних ресурсів ЦП може використовувати контейнер
 
@@ -40,7 +40,7 @@ docker push lyiharilam/naukma-devops-lab3:1.0
 
 Відображення запущеного контейнеру у Docker Desktop
 
-![image](https://user-images.githubusercontent.com/77335357/223480684-167688ef-ca31-4f1f-9763-aa57cad00bbd.png)
+![image](https://user-images.githubusercontent.com/77335357/223485260-6d818f1c-8249-4744-9ad8-958bd00f9d8a.png)
 
 Відкритий localhost:8080 в браузері
 
