@@ -1,6 +1,6 @@
 FROM node:12
 
-WORKDIR /lab3
+WORKDIR /NAUKMA_devops_lab3
 
 COPY package*.json ./
 
